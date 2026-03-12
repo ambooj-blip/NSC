@@ -15,7 +15,9 @@ import rang from "../assets/rang.jpg";
 import movie from "../assets/movie.jpg";
 import guitar from "../assets/guitar.png";
 import painting from "../assets/painting.png";
-import basketballQR from '../assets/basketballQR.jpg'
+import Tractate from "../assets/Tractate.webp";
+import basketballQR from '../assets/basketballQR.jpg';
+import TugOfWar from '../assets/TOW.webp';
 
 export const eventFields = {
   1: [
@@ -73,8 +75,8 @@ export const eventsData = [
     shortDescription: "Compete in an intense BGMI mobile gaming showdown!",
     longDescription: "A thrilling BGMI tournament where players battle it out on mobile devices to prove their gaming prowess.",
     time: "TBH",
-    venue: "9:00 AM",
-    dates: ["2025-04-05"],
+    venue: "10:00 AM",
+    dates: ["2026-04-11"],
     rules: [
       "Fair Play: No cheating, hacking, or use of third-party software.",
       "Device Restrictions: Players must use mobile devices (some tournaments may allow tablets/emulators).",
@@ -84,7 +86,7 @@ export const eventsData = [
     ],
     prize: "TBD",
     contact: ["Ishaan: 93548 55625", "Tushar: 78271 15042"],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 2,
@@ -93,8 +95,8 @@ export const eventsData = [
     shortDescription: "Pitch your innovative ideas to the sharks!",
     longDescription: "Present your startup idea to a panel of judges in a Shark Tank-inspired competition for students.",
     time: "TBD",
-    venue: "9:30 AM",
-    dates: ["2025-04-05"],
+    venue: "10:00 AM",
+    dates: ["2026-04-11"],
     rules: [
       "Open to undergraduate and postgraduate students.",
       "Teams can consist of 1 to 5 members.",
@@ -103,8 +105,8 @@ export const eventsData = [
       "Teams must register by the specified deadline.",
       "A team leader must be designated during registration.",
       "Registration details should include team member names, contact information, and a brief description of the idea.",
-      "Teams present their ideas to a panel of judges.",
-      "Time limit for presentations: 10 minutes.",
+      "Teams present their ideas to a panel of judges through PPT.",
+      "Time limit for presentations: 5-10 minutes.",
       "Visual aids (e.g., slides, prototypes) are allowed.",
       "Judges may ask questions and provide feedback.",
       "Visual aids such as slides or prototypes must be prepared in advance.",
@@ -113,7 +115,7 @@ export const eventsData = [
     ],
     prize: "TBD",
     contact: ["Hiya: 965073321", "Darshita: 9810748780"],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 3,
@@ -123,14 +125,14 @@ export const eventsData = [
     longDescription: "A street play competition where teams deliver impactful performances with a strong social message in Hindi.",
     time: "TBD",
     venue: "10:00 AM",
-    dates: ["2025-04-05"],
+    dates: ["2026-04-11"],
     rules: [
       "Each team must have 18 to 20 members (including helpers).",
       "Minimum: 20 minutes, Maximum: 22 minutes (including setup time).",
       "Prelims Round: To qualify for the final competition, teams must clear the Prelims Round.",
       "Prelims Round: Teams must submit a 10-minute, unedited, one-take video of their Nukkad Natak.",
       "Prelims Round: No cuts, transitions, or edits are allowed in the video.",
-      "Prelims Round: Last date for submission: 31st March 2025.",
+      "Prelims Round: Last date for submission: 31st March 2026.",
       "Prelims Round: Only shortlisted teams will proceed to the final competition.",
       "Theme: The act should deliver a strong social message.",
       "Language: Performances must be in Hindi.",
@@ -152,41 +154,40 @@ export const eventsData = [
       "Khushi Kaushik: 83758 74982",
       "Kanak Bansal: 82092 92021",
     ],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
-  {
-    id: 4,
-    name: "Basketball",
-    image: bkball,
-    shortDescription: "Dominate the court in a 3x3 basketball showdown!",
-    longDescription: "A fast-paced 3x3 basketball tournament played on half a court with one basket.",
-    time: "TBD",
-    venue: "9:00 AM",
-    dates: ["2025-04-04", "2025-04-05"],
-    rules: [
-      "The game will be played on a 3x3 playing court with one basket. Half of a traditional basketball court may be used.",
-      "Each team shall consist of no more than 4 players (3 players on the court and 1 substitute).",
-      "A coin flip shall determine which team gets the first possession. The team that wins the coin flip can either choose to benefit from the ball possession at the beginning of the game or at the beginning of a potential overtime.",
-      "Every shot from inside the arc (1-point field goal area) shall be awarded 1 point.",
-      "Every shot from behind the arc (2-point field goal area) shall be awarded 2 points.",
-      "Every successful free throw shall be awarded 1 point.",
-      "The regular playing time shall be 1 period of 10 minutes. The game clock shall be stopped during dead ball situations and free throws.",
-      "The game clock shall be restarted when: During a check-ball, the ball is at the disposal of the offensive player after the check-ball has been completed.",
-      "The game clock shall be restarted when: After a successful last free throw, the next offensive team is in possession of the ball.",
-      "The game clock shall be restarted when: After an unsuccessful last free throw and the ball continues to be live, the ball touches or is touched by any player on the playing court.",
-      "The first team to score 21 points or more wins the game if it happens before the end of regular playing time. This 'sudden death' rule applies to the regular playing time only (not to a potential overtime).",
-      "If the score is tied at the end of regular playing time, an overtime shall be played.",
-      "There shall be an interval of 1 minute before the overtime starts. The first team to score 2 points in the overtime wins the game.",
-      "No. of Players Allowed per team: 3+1 (substitute).",
-      "Registration fees: ₹700 per team. Receipt must be uploaded during registration.",
-    ],
-    prize: "TBD",
-    contact: ["Vijay: 72173 52469", "Harsh: 79064 27749"],
-    requiresPayment: true,
-    registrationFee: 700,
-    qrCode: basketballQR,
-    isRegistrationOver: true,
-  },
+//   {
+//     id: 4,
+//     name: "Volleyball",
+//     image: bkball,
+//     shortDescription: "Dominate the court in a 3x3 basketball showdown!",
+//     longDescription: "A fast-paced 3x3 basketball tournament played on half a court with one basket.",
+//     time: "TBD",
+//     venue: "10:00 AM",
+//     dates: ["2026-04-10", "2026-04-11"],
+//     rules: [
+// "Each team shall consist of no more than 6 players on the court and up to 6 substitute players.",
+// "A coin toss shall determine which team gets the first serve. The team that wins the toss may choose to serve, receive, or select the side of the court.",
+// "Each team is allowed a maximum of three touches to return the ball to the opponent’s side.",
+// "A block does not count as one of the three touches.",
+// "A player cannot hit the ball twice consecutively, except after a block.",
+// "The ball must cross the net within the court boundaries to be considered in play.",
+// "A point is awarded on every rally (Rally Point System), regardless of which team served.",
+// "A match shall consist of the best of 3 sets unless otherwise specified by the organizers.",
+// "The first team to reach 25 points with at least a 2-point lead wins the set.",
+// "If the match reaches a deciding third set, the set shall be played to 15 points, with at least a 2-point lead required to win.",
+// "Players must rotate clockwise each time their team wins the serve from the opponent.",
+// "Touching the net during play or crossing the center line illegally shall result in a fault.",
+// "The ball is considered out if it lands outside the boundary lines, touches the antenna, or fails to cross the net properly.",
+// "Time-outs may be taken by each team as permitted by the organizers or referees.",
+//     ],
+//     prize: "TBD",
+//     contact: ["Vijay: 72173 52469", "Harsh: 79064 27749"],
+//     requiresPayment: true,
+//     registrationFee: 700,
+//     qrCode: basketballQR,
+//     isRegistrationOver: true,
+//   },
   {
     id: 5,
     name: "War of Words",
@@ -194,9 +195,10 @@ export const eventsData = [
     shortDescription: "Debate your way to victory!",
     longDescription: "A debate competition where participants argue with facts, fluency, and creativity in English or Hindi.",
     time: "TBD",
-    venue: "9:30 AM",
-    dates: ["2025-04-05"],
+    venue: "10:00 AM",
+    dates: ["2026-04-11"],
     rules: [
+      "Topic: Topic will be announced on the spot.",
       "Time Limit: Each speaker gets 5 minutes to present.",
       "Cross-Questioning: Allowed with clear, fair, and relevant questions.",
       "Content: Facts must be accurate and well-researched.",
@@ -207,7 +209,7 @@ export const eventsData = [
     ],
     prize: "TBD",
     contact: ["Navya: 78277 76854", "Tarushi: 92117 90589"],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 6,
@@ -216,8 +218,8 @@ export const eventsData = [
     shortDescription: "Dance your heart out in this vibrant competition!",
     longDescription: "A dance event where teams from colleges showcase their moves within a 10-minute limit.",
     time: "TBD",
-    venue: "9:30 AM",
-    dates: ["2025-04-04"],
+    venue: "10:00 AM",
+    dates: ["2026-04-10"],
     rules: [
       "Each college should only send one team to represent them.",
       "Stage limit is 5 to 20 members.",
@@ -232,28 +234,23 @@ export const eventsData = [
     ],
     prize: "TBD",
     contact: ["Gunshita Varun: 9873760414", "Sourav: 9871169532", "Rohit: 98976 83764"],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 7,
-    name: "Creative Canvas",
-    image: painting,
-    shortDescription: "Paint a masterpiece on the spot!",
-    longDescription: "An art competition where participants create themed posters within a 2-hour limit.",
+    name: "Tractate",
+    image: Tractate,
+    shortDescription: "",
+    longDescription: "",
     time: "TBD",
     venue: "10:00 AM",
-    dates: ["2025-04-05"],
+    dates: ["2026-04-11"],
     rules: [
-      "𝑻𝒉𝒆𝒎𝒆 :Unity in diversity: celebrating cultural heritage",
-      "Posters must adhere to the specified theme.",
-      "Posters must be of the specified size i.e. A3 and it should be original and created by the participant only.",
-      "Participants would be given 2 hours to complete their posters and they must submit it before the specified deadline.",
-      "No use of electronic device during the time period if caught you will be disqualified.",
-      "Posters will be judged on creativity, relevance to the theme, and visual appeal.",
+      
     ],
     prize: "TBD",
     contact: ["Lakshita: 87440 47511", "Kanishka: 98100 41645"],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 8,
@@ -262,8 +259,8 @@ export const eventsData = [
     shortDescription: "Capture the essence of NSC BVICAM 2025 through photography!",
     longDescription: "Join us in capturing the emotions and highlights of NSC BVICAM 2025 through your lens in this photography competition.",
     time: "Submissions: 12 PM - 2 PM",
-    venue: "9:00 AM",
-    dates: ["2025-04-05"],
+    venue: "10:00 AM",
+    dates: ["2026-04-11"],
     Theme: "",
     rules: [
       "Eligibility: The event is open to photographers of all levels, ages, and nationalities.",
@@ -284,7 +281,7 @@ export const eventsData = [
     ],
     prize: "Cash prizes and certificates",
     contact: ["Revant: 8557751703", "Somil: 9205337823", "Kshitiz: 9910193041"],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 9,
@@ -293,23 +290,24 @@ export const eventsData = [
     shortDescription: "Test your coding skills in a thrilling two-round competition!",
     longDescription: "Challenge yourself with debugging and coding problems in this epic Code Avengers showdown featuring two rounds.",
     time: "Round 1: 30 mins, Round 2: 2 hrs",
-    venue: "9:30 AM",
-    dates: ["2025-04-05"],
+    venue: "10:00 AM",
+    dates: ["2026-04-11"],
     rules: [
+     
       "Round 1: Debugging Challenge (Elimination Round)",
-      "Round 1: Participants will be given 5 code snippets with bugs. They must identify the error and suggest corrections without executing the code.",
-      "Round 1: No execution of code—only logical debugging based on syntax, logic, and conceptual understanding.",
-      "Round 1: Each bug correctly identified and fixed earns points.",
-      "Round 1: Partial credit may be given for correctly identifying the error but incorrect fixes.",
-      "Round 1: Top X% of participants (or a fixed number) with the highest scores advance to Round 2.",
-      "Round 1: Time limit: 30 minutes",
+      "1: Participants will be given 5 code snippets with bugs. They must identify the error and suggest corrections without executing the code.",
+      "2: No execution of code—only logical debugging based on syntax, logic, and conceptual understanding.",
+      "3: Each bug correctly identified and fixed earns points.",
+      "4: Partial credit may be given for correctly identifying the error but incorrect fixes.",
+      "5: Top X% of participants (or a fixed number) with the highest scores advance to Round 2.",
+      "6: Time limit: 30 minutes",
       "Round 2: Final Coding Contest",
-      "Round 2: This is the main coding challenge with 3 problems of varying difficulty. Participants must solve at least 2 problems to qualify for ranking.",
-      "Round 2: Time Limit: 2 hours",
-      "Round 2: Allowed Languages: C, C++, Java, Python",
-      "Round 2: Evaluation Criteria: Correctness of solution, Efficiency (Time Complexity), Code readability and best practices.",
-      "Round 2: Participants must submit their solutions within the given time frame.",
-      "Round 2: Use of AI tools (e.g., ChatGPT, Copilot) is strictly prohibited.",
+      "1: This is the main coding challenge with 3 problems of varying difficulty. Participants must solve at least 2 problems to qualify for ranking.",
+      "2: Time Limit: 2 hours",
+      "3: Allowed Languages: C, C++, Java, Python",
+      "4: Evaluation Criteria: Correctness of solution, Efficiency (Time Complexity), Code readability and best practices.",
+      "5: Participants must submit their solutions within the given time frame.",
+      "6: Use of AI tools (e.g., ChatGPT, Copilot) is strictly prohibited.",
     ],
     prize: "Exciting rewards for top coders",
     contact: [
@@ -318,7 +316,7 @@ export const eventsData = [
       "Amrendram: 96258 54106",
       "Deepanshu: 85956 75015",
     ],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 10,
@@ -328,7 +326,7 @@ export const eventsData = [
     longDescription: "A competitive volleyball tournament where teams showcase their skills on the court.",
     time: "TBD",
     venue: "10:00 AM",
-    dates: ["2025-04-04", "2025-04-05"],
+    dates: ["2026-04-10", "2026-04-11"],
     rules: [
       "Each team shall consist of 6 players (plus up to 4 substitutes).",
       "A coin toss determines the first serve.",
@@ -341,7 +339,7 @@ export const eventsData = [
     requiresPayment: true,
     registrationFee: 1000,
     qrCode: volleyballQR,
-    isRegistrationOver: true,
+    isRegistrationOver: false,
   },
   {
     id: 11,
@@ -350,8 +348,8 @@ export const eventsData = [
     shortDescription: "Showcase Your Vision, Craft Stories, Compete & Conquer!",
     longDescription: "Showcase your filmmaking skills by creating original, high-quality short films or documentaries that captivate audiences and impress judges with creativity and storytelling.",
     time: "TBD",
-    venue: "9:30 AM",
-    dates: ["2025-04-05"],
+    venue: "10:00 AM",
+    dates: ["2026-04-11"],
     rules: [
       "Submit your entry via Google Drive.",
       "Open to college students (must carry a valid College ID).",
@@ -370,7 +368,7 @@ export const eventsData = [
       "Synopsis of the Film/Documentary must be submitted.",
       "Script of the Film/Documentary must be submitted.",
       "Poster of the Film/Documentary must be submitted.",
-      "Last date of submission: 1st April 2025.",
+      "Last date of submission: 1st April 2026.",
       "Time Limit: Each speaker gets 5 minutes to present.",
       "Cross-Questioning: Allowed with clear, fair, and relevant questions.",
       "Content: Facts must be accurate and well-researched.",
@@ -381,15 +379,32 @@ export const eventsData = [
     ],
     prize: "TBD",
     contact: ["Navya: 78277 76854", "Tarushi: 92117 90589"],
-    isRegistrationOver: true,
+    isRegistrationOver: false,
+  },
+  {
+    id: 12,
+    name: "Tug of War",
+    image: TugOfWar,
+    shortDescription: "Showcase Your Strength, Teamwork, and Strategy in an Epic Tug of War Battle!",
+    longDescription: "A thrilling Tug of War competition where teams test their strength, teamwork, and strategy to pull the rope to victory.",
+    venue: "10:00 AM",
+    dates: ["2026-04-11"],
+    rules: [
+      "Each team shall consist of 10 members (plus up to 5 substitutes).",
+      "A coin toss determines the first pull.",
+      "Teams must adhere to fair play and sportsmanship guidelines.",
+    ],
+    prize: "TBD",
+    contact: ["Navya: 78277 76854", "Tarushi: 92117 90589"],
+    isRegistrationOver: false,
   },
 ];
 
 export const events = [
   { 
     name: "Code Avengers", 
-    time: "9:30 AM ", 
-    dates: ["2025-04-05"],
+    time: "10:00 AM ", 
+    dates: ["2026-04-11"],
     heads: [
       { name: "Deepanshu", mobile: "+91 8595675015" },
       { name: "Pranav", mobile: "+91 9582349597" },
@@ -397,8 +412,8 @@ export const events = [
   },
   { 
     name: "Battle Bytes", 
-    time: "9:00 AM ", 
-    dates: ["2025-04-05"],
+    time: "10:00 AM ", 
+    dates: ["2026-04-11"],
     heads: [
       { name: "Tushar", mobile: "+91 7827115042" },
       { name: "Prashant", mobile: "+91 9311314126" },
@@ -406,8 +421,8 @@ export const events = [
   },
   { 
     name: "Shark Tank", 
-    time: "9:30 AM ", 
-    dates: ["2025-04-05"],
+    time: "10:00 AM ", 
+    dates: ["2026-04-11"],
     heads: [
       { name: "Hiya", mobile: "+91 9650733212" },
       { name: "Darshita", mobile: "+91 9810748780" },
@@ -416,24 +431,24 @@ export const events = [
   { 
     name: "Volley Ball",
     time: "10:00 AM ", 
-    dates: ["2025-04-04", "2025-04-05"],
+    dates: ["2026-04-10", "2026-04-11"],
     heads: [
       { name: "Ujjwal", mobile: "+91 7303782547" },
     ] 
   },
-  { 
-    name: "BasketBall", 
-    time: "9:00 AM ", 
-    dates: ["2025-04-04", "2025-04-05"],
-    heads: [
-      { name: "Vijay", mobile: "+91 7217352469" },
-      { name: "Harsh", mobile: "+91 7906427749" },
-    ] 
-  },
+    // { 
+    //   name: "BasketBall", 
+    //   time: "9:00 AM ", 
+    //   dates: ["2026-04-10", "2026-04-11"],
+    //   heads: [
+    //     { name: "Vijay", mobile: "+91 7217352469" },
+    //     { name: "Harsh", mobile: "+91 7906427749" },
+    //   ] 
+    // },
   { 
     name: "Rangmanch", 
     time: "10:00 AM ", 
-    dates: ["2025-04-05"],
+    dates: ["2026-04-11"],
     heads: [
       { name: "Tashmeen", mobile: "+91 9354379839" },
       { name: "Ira", mobile: "+91 8595807792" },
@@ -441,17 +456,17 @@ export const events = [
   },
   { 
     name: "Candid Moments", 
-    time: "9:00 AM ", 
-    dates: ["2025-04-05"],
+    time: "10:00 AM ", 
+    dates: ["2026-04-11"],
     heads: [
       { name: "Revant", mobile: "+91 8447751703" },
       { name: "Somil", mobile: "+91 9205337823" },
     ] 
   },
   { 
-    name: "Creative Canvas", 
+    name: "TRACTATE", 
     time: "10:00 AM ", 
-    dates: ["2025-04-05"],
+    dates: ["2026-04-11"],
     heads: [
       { name: "Lakshita", mobile: "+91 8744047511" },
       { name: "Kanishka", mobile: "+91 9810041645" },
@@ -459,8 +474,8 @@ export const events = [
   },
   { 
     name: "War Of Words", 
-    time: "9:30 AM ", 
-    dates: ["2025-04-05"],
+    time: "10:00 AM ", 
+    dates: ["2026-04-11"],
     heads: [
       { name: "Navya", mobile: "+91 7827776854" },
       { name: "Tarushi", mobile: "+91 9211790589" },
@@ -468,8 +483,8 @@ export const events = [
   },
   { 
     name: "Fandango", 
-    time: "9:20 AM ", 
-    dates: ["2025-04-04"],
+    time: "10:00 AM ", 
+    dates: ["2026-04-10"],
     heads: [
       { name: "Gunshita", mobile: "+91 9873760414"},
       { name: "Sourav", mobile: "+91 9871169532" },
@@ -477,10 +492,19 @@ export const events = [
   },
   { 
     name: "Cine Blitz", 
-    time: "9:00 AM ", 
-    dates: ["2025-04-05"],
+    time: "10:00 AM ", 
+    dates: ["2026-04-11"],
     heads: [
       { name: "Vanshika", mobile: "+91 9990354522"},
+    ] 
+  },
+   { 
+    name: "Tug Of War", 
+    time: "10:00 AM ", 
+    dates: ["2026-04-11"],
+    heads: [
+      { name: "Lakshita", mobile: "+91 8744047511" },
+      { name: "Kanishka", mobile: "+91 9810041645" },
     ] 
   },
 ];

@@ -50,7 +50,7 @@ export function HeroSection({ scrollToEvents }) {
     className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 
                text-2xl lg:text-2xl sm:text-4xl md:text-6xl lg:text-6xl font-extrabold drop-shadow-xl"
   >
-    National Students' Convention 2025
+    National Students' Convention 2026
   </motion.span>
 </h2>
 
